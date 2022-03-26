@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM centos:centos7
 LABEL maintainer="Rajiv Gopal"
 RUN yum -y install httpd
 COPY index.html /var/www/html/
